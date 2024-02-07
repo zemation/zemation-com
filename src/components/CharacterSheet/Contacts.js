@@ -11,7 +11,7 @@ function Contacts() {
   ]
 
   return (
-    <div className="border border-dark rounded">
+    <div className="border border-dark rounded p-3">
       {contacts.map(contact => (
         <div key={contact.name}>
         <h4>{contact.name}</h4>

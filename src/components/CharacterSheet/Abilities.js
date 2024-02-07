@@ -27,7 +27,7 @@ function Abilities() {
   ]
 
   return (
-    <div className="border border-dark rounded">
+    <div className="border border-dark rounded text-center p-3">
       {abilities.map(ability => (
         <div key={ability.ability}>
           <p>{ability.ability} - {ability.value}</p>

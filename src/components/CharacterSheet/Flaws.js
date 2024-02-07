@@ -46,7 +46,7 @@ function Flaws() {
     }
   ]
   return (
-    <div className="border border-dark rounded">
+    <div className="border border-dark rounded p-3">
     {flaws.map(flaw => (
       <div key={flaw.name}>
         <h3>{flaw.name}</h3>

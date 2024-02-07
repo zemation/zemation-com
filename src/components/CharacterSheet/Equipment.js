@@ -26,7 +26,7 @@ function Equipment() {
     }
   ]
   return (
-    <div className="border border-dark rounded">
+    <div className="border border-dark rounded p-3">
       {equipment.map(item => (
         <div key={item.name}>
         <h3>{item.name}</h3>

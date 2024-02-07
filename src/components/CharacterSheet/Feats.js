@@ -19,7 +19,7 @@ function Feats() {
   ]
 
   return (
-    <div className="border border-dark rounded">
+    <div className="border border-dark rounded p-3">
     {feats.map(feat => (
       <div key={feat.name}>
       <h3>{feat.name}</h3>

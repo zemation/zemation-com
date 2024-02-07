@@ -27,8 +27,8 @@ function Details() {
   ]
 
   return (
-    <div className="container">
-      <div className="row mt-5 d-flex justify-content-center">
+    <div className="container h-100 d-flex align-items-center justify-content-around">
+      <div className="row mt-5">
       {CharDetails.map(detail => (
         <div key={detail.name} className="col-lg-4">
           <p>{detail.detail}</p>

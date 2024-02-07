@@ -31,7 +31,7 @@ function Attributes() {
   return (
     <>
     {attributes.map(attribute => (
-      <div key={attribute.stat} className="border border-dark mb-3 rounded">
+      <div key={attribute.stat} className="border border-dark mb-1 rounded text-center p-1">
         <p>{attribute.stat}</p>
         <p>{attribute.value}</p>
       </div>
