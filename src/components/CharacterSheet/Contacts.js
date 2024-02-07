@@ -14,7 +14,7 @@ function Contacts() {
     <div className="border border-dark rounded p-3">
       {contacts.map(contact => (
         <div key={contact.name}>
-        <h4>{contact.name}</h4>
+        <h3>{contact.name}</h3>
         <p>{contact.description}</p>
         </div>
       ))}
