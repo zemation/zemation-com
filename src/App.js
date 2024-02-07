@@ -1,11 +1,14 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sheet from './components/CharacterSheet/Sheet'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Sheet />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Sheet />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
